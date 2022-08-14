@@ -22,5 +22,11 @@ public class HashTableTest {
         }
 
         hashTable.print();
+
+        System.out.println(hashTable.size());
+
+        hashTable.remove("avoidable");
+        System.out.println();
+        hashTable.print();
     }
 }
